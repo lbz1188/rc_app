@@ -11,3 +11,9 @@ def about(request):
 
 def contact(request):
     return HttpResponse("134 0013 2368")
+
+    hfdsakhfkdjslahkgjdsahkfda
+    agd
+    gjapdgjiasfgasf
+    gasf
+    getattrfsagit
