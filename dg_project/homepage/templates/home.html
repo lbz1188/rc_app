@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>HOME</h1>
+
+    <h2>{{ resorts }}</h2>
+    <h5>{{ resorts.brief }}</h5>
+    <p>{{resorts.descption}}</p>
+    <small>Last Updated: {{resorts.date_update|date:"F d,Y"}}</small>
+
+
+{% endblock %}
