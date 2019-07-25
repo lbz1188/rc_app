@@ -1,19 +1,15 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Resort
 
 # Create your views here.
+
 def home(request):
-    return HttpResponse("<h1>Home Page</h1>")
+    context = {
+        "resorts" : Resort.objects.first()
+    }
+    return render(request, "home.html", context)
 
 
 def about(request):
-    return HttpResponse("<h1>About US</h1>")
-
-def contact(request):
-    return HttpResponse("134 0013 2368")
-
-    hfdsakhfkdjslahkgjdsahkfda
-    agd
-    gjapdgjiasfgasf
-    gasf
-    getattrfsagit
+    return render(request, "about.html")
