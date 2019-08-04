@@ -4,9 +4,10 @@ from .models import Resort
 
 # Create your views here.
 
+
 def home(request):
     context = {
-        "resorts" : Resort.objects.first()
+        "resorts": Resort.objects.all()
     }
     return render(request, "home.html", context)
 

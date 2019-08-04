@@ -5,7 +5,10 @@ from django.utils import timezone
 
 class Resort(models.Model):
     resort = models.CharField(max_length=100)
+    url = models.CharField(max_length=100)
+    parameters = models.CharField(max_length=100)
     brief = models.CharField(max_length=100)
+    benefit = models.CharField(max_length=100)
     logo_dir = models.CharField(max_length=100)
     descption = models.TextField()
     date_update = models.DateField(default=timezone.now)
