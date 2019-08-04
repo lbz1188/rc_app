@@ -3,12 +3,14 @@
 {% block content %}
 <h1>HOME</h1>
     {% for resort in resorts %}
-    <h2>{{ resort.resort }}</h2>
-
-    <a href="{{resort.url}}"><img src="{{resort.logo_dir}}" alt="{{resort.resort}}-logo"><small>HOMEPAGE</small></a>
-    <h5>{{ resort.brief }}</h5>
-    <p>{{resort.descption}}</p>
-    <small>Last Updated: {{resort.date_update|date:"F d,Y"}}</small>
+    <div class="card" style="width: 18rem">
+            <h2>{{ resort.resort }}</h2>
+            <a href="{{resort.url}}"><img src="{{resort.logo_dir}}" alt="{{resort.resort}}-logo"><small>HOMEPAGE</small></a>
+            <h5>{{ resort.brief }}</h5>
+            <p>{{resort.descption}}</p>
+            <small>Last Updated: {{resort.date_update|date:"F d,Y"}}</small>
+    </div>
+    
     {% endfor %}
 
 
