@@ -14,10 +14,14 @@ for key in jsf.keys():
     rs = Resort(
         resort = jsf[key]['name'],
         brief = jsf[key]['slogan'],
+        target = jsf[key]['target'],
         url = jsf[key]['url'],
         parameters = jsf[key]['parameters'],
         benefit= jsf[key]['benefit'],
         descption = jsf[key]['description'],
-        logo_dir = f"{key}.jpg"
+        logo_dir = f"{key}.jpg",
+        banner_img=f"{key}-banner.jpg",
+        img_dir = f"{key}-img.jpg"
+        
         )
     rs.save()

@@ -1,6 +1,8 @@
 {
     "laax":{ 
         "name": "LAAX",
+        "chinese-name":",",
+        "target":"laax",
         "url":"http://www.laax.com",
         "slogan":"Freestyle No.1",
         "parameters":[
@@ -11,11 +13,15 @@
             "附近机场：苏黎世"
         ],
         "benefit":"入住Rocksresort、Signinahotel酒店可获5日雪票",
+        "img_dir":["laax1.jpg"],
+        "banner-img":"laax1.jpg",
         "description":"瑞士最顶级的滑雪度假区之一，连续三年被评为“瑞士最好的滑雪度假胜地”，是瑞士自由式滑雪国家队的唯一指定训练场地。整个滑雪度假区的面积达100平方公里，70%的区域都在海平面2000米以上，优厚的地理位置确保了丰沛的雪量及良好的雪质。",
         "logo":"laax.png" 
     },
     "mtbuller":{
         "name": "Mt Buller",
+        "chinese-name":"布勒山",
+        "target": "buller",
         "url":"http://www.mtbuller.com.au",
         "slogan":"反季滑雪第一选择",
         "parameters":[
@@ -26,26 +32,34 @@
             "附近机场：墨尔本"
         ],
         "benefit":"3天雪票，3天以上半价",
+        "img_dir":["buller1.jpg"],
+        "banner-img":"buller1.jpg",
         "description":"澳大利亚最著名的冬季度假胜地,最长的雪道滑雪2.5公里长。雪场20%的区域的雪况适于滑雪初学者，45%的区域适于一般滑雪者，35%的雪况和地势适于专业滑雪者。拥有澳大利亚最好的地形，拥有世界一流的滑雪学校，举办一系列赛事，给您完美的滑雪体验。",
         "logo":"mtbuller.png" 
     },
     "squawvalley":{
-        "name": "Squaw Valley | Alpine Meadows",
+        "name": "Squaw Valley|Alpine Meadows",
+        "chinese-name":"斯阔谷|高山草甸",
+        "target":"squaw",
         "url":"http://squawalpine.com",
         "slogan":"反季滑雪第一选择",
         "parameters":[
-            "滑雪区域：300公顷",
-            "高点（米）：1805",
-            "低点（米）：1375",
-            "落差（米）：430",
-            "附近机场：墨尔本"
+            "滑雪区域：3600英亩",
+            "高点（米）：2760",
+            "低点（米）：1890",
+            "落差（米）：870",
+            "附近机场：里诺"
         ],
         "benefit":"持云顶季卡享5日免费雪票",
+        "img_dir":["squaw.jpg"],
+        "banner-img":"squaw.jpg",
         "description":"加州第二大滑雪区，地处于内华达山脉。滑雪区的滑雪设施齐全，30条缆车,世界一流雪道设施，超过177条雪道，最长的雪道可达5.1公里。1960年第八届冬季奥林匹克运动会在此举行。",
         "logo":"squaw.png" 
     },
     "shigakogen":{
-        "name": "志贺高原 SHIGA KOGEN",
+        "name": "SHIGA KOGEN",
+        "chinese-name":"志贺高原",
+        "target":"shiga",
         "url":"http://www.shigakogen-ski.com",
         "slogan":"畅滑长野十八家雪场",
         "parameters":[
@@ -55,12 +69,16 @@
             "落差（米）：967",
             "附近机场：东京"
         ],
+        "img_dir":["shiga.jpg"],
+        "banner-img":"shiga.jpg",
         "benefit":"持云顶季卡享5日免费雪票",
         "description":"位于以高山风光著称的长野县，是日本最大的滑雪胜地。志贺高原雪场滑雪区域从1340米到2307米，有52条缆车。作为1998年长野冬季奥运会的比赛场地，吸引着国际滑雪玩家的目光。",
         "logo":"shigakogen.png" 
     },
     "hakuba":{
-        "name": "白马八方尾根 HAKUBA HAPPON-ONE",
+        "name": "HAKUBA HAPPON-ONE",
+        "chinese-name":"白马八方尾根",
+        "target":"hakuba",
         "url":"http://www.shigakogen-ski.com",
         "slogan":"日本粉雪国度",
         "parameters":[
@@ -70,6 +88,8 @@
             "落差（米）：1071",
             "附近机场：东京"
         ],
+        "img_dir":["hakuba.jpg"],
+        "banner-img":"hakuba.jpg",
         "benefit":"持云顶季卡享5日免费雪票",
         "description":"白马地区最大的滑雪场，1998年长野冬奥会比赛场地之一。最长雪道达8公里，30%的雪道适于滑雪初学者，50%的雪道适于一般滑雪者，20%的雪道适于专业滑雪者。",
         "logo":"shigakogen.png" 
